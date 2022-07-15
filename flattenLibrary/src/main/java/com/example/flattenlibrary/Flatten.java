@@ -9,9 +9,9 @@ import com.pdftron.pdf.PDFDoc;
 import java.io.File;
 
 public class Flatten {
-    public static void simpleToast(Context context, String msg) {
+  /*  public static void simpleToast(Context context, String msg) {
         Toast.makeText(context, msg, Toast.LENGTH_SHORT).show();
-    }
+    }*/
     public static File flattenDocument(File file){
         PDFDoc doc = null;
         try {
